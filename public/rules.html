@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/95593c84f2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="images/nkl_cropped.png"/>
+    <title>National Knights League - Rules</title>
+</head>
+<body>
+    <!-- Navigation & Hero -->
+    <nav class="w-full inline-grid items-center grid-flow-col auto-cols-fr text-myellow-light font-montserrat p-2 bg-gray-900">
+        <a href="./index.html" class="flex pl-6">
+            <img class="rounded-full h-16 w-16 border-double border-4 border-myellow-dark" src="./images/nkl_logo.png">
+        </a>
+
+        <div class="hidden md:flex justify-center uppercase text-center font-extrabold font-2 text-sm">
+            <a href="./index.html" class="p-6 tracking-widest hover:text-myellow-dark">Home</a>
+            <a href="./about.html" class="p-6 tracking-widest hover:text-myellow-dark">About Us</a>
+            <a href="./rules.html" class="p-6 tracking-widest hover:text-myellow-dark">Rules</a>
+            <a href="https://docs.google.com/document/d/1CjQRcvWJKVV9wc7uP4dRRphJ2FfPUhiPZnnE_O8ksUs/edit?usp=sharing" class="p-6 tracking-widest hover:text-myellow-dark">Handbook</a>
+        </div>
+
+        <div class="hidden md:flex justify-end pr-8">
+            <button class="uppercase rounded-full border-2 border-myellow-dark px-6 py-2 tracking-wider hover:bg-myellow-dark"><i class="fab fa-fort-awesome fill-current text-myellow-light"></i> <a href="https://discord.gg/ATRkBj7VdE">Join the League</a></button>
+        </div>
+
+        <!-- Mobile Navigation: Button -->
+        <div class="md:hidden flex justify-end">
+            <button class="mobile-menu-button">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 fill-current text-myellow-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-menu md:hidden text-center uppercase font-extrabold font-montserrat font-2 text-sm bg-gray-800 text-myellow-light">
+        <a href="./index.html" class="p-6 tracking-widest hover:text-myellow-dark block">Home</a>
+        <a href="./about.html" class="p-6 tracking-widest hover:text-myellow-dark block">About Us</a>
+        <a href="./rules.html" class="p-6 tracking-widest hover:text-myellow-dark block">Rules</a>
+        <a href="https://docs.google.com/document/d/1CjQRcvWJKVV9wc7uP4dRRphJ2FfPUhiPZnnE_O8ksUs/edit?usp=sharing" class="p-6 tracking-widest hover:text-myellow-dark block">Handbook</a>
+    </div>
+
+    <div class="bg-no-repeat h-screen bg-center bg-cover opacity-95" style="background-image: url('./images/nkl_refgun.png')">
+
+        <div class="flex h-screen pb-32">
+            <div class="m-auto">
+              <h1 class="text-9xl text-myellow-light font-cinzel text-center">Rules</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rules Section -->
+    <div class="bg-myellow-light">
+        <a href="https://paypal.me/nklna">
+            <img src="./images/NKL_Duelyard_Rules.png">
+        </a>
+        <i class="fas fa-donate"></i>
+    </div>
+  
+    <!-- Footer -->
+    <div class="bg-gray-900 text-center py-1">
+        <p class="text-myellow-light font-montserrat">Copyright © 2021 National Knights League</p>
+        <div class="flex justify-center">
+            <a href="https://discord.gg/ka9QtcjTcC">
+            <img class="h-16 w-16 p-3" src="./images/discordlogo.png"> 
+            </a>    
+            <a href="https://www.twitch.tv/nkl_na">
+            <img class="h-16 w-16 p-3" src="./images/twitchiconnkl.png">
+            </a>
+            <a href="https://www.youtube.com/channel/UCbi9IovAq1hncMhTpkBXoBw">
+            <img class="h-16 w-16 p-3" src="./images/ytlogofr.png">
+            </a>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

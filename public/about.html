@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/95593c84f2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="images/nkl_cropped.png"/>
+    <title>National Knights League - About Us</title>
+</head>
+<body>
+    <!-- Navigation & Hero -->
+    <nav class="w-full inline-grid items-center grid-flow-col auto-cols-fr text-myellow-light font-montserrat p-2 bg-gray-900">
+        <a href="./index.html" class="flex pl-6">
+            <img class="rounded-full h-16 w-16 border-double border-4 border-myellow-dark" src="./images/nkl_logo.png">
+        </a>
+
+        <div class="hidden md:flex justify-center uppercase text-center font-extrabold font-2 text-sm">
+            <a href="./index.html" class="p-6 tracking-widest hover:text-myellow-dark">Home</a>
+            <a href="./about.html" class="p-6 tracking-widest hover:text-myellow-dark">About Us</a>
+            <a href="./rules.html" class="p-6 tracking-widest hover:text-myellow-dark">Rules</a>
+            <a href="https://docs.google.com/document/d/1CjQRcvWJKVV9wc7uP4dRRphJ2FfPUhiPZnnE_O8ksUs/edit?usp=sharing" class="p-6 tracking-widest hover:text-myellow-dark">Handbook</a>
+        </div>
+
+        <div class="hidden md:flex justify-end pr-8">
+            <button class="uppercase rounded-full border-2 border-myellow-dark px-6 py-2 tracking-wider hover:bg-myellow-dark"><i class="fab fa-fort-awesome fill-current text-myellow-light"></i> <a href="https://discord.gg/ATRkBj7VdE">Join the League</a></button>
+        </div>
+
+        <!-- Mobile Navigation: Button -->
+        <div class="md:hidden flex justify-end">
+            <button class="mobile-menu-button">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 fill-current text-myellow-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-menu md:hidden text-center uppercase font-extrabold font-montserrat font-2 text-sm bg-gray-800 text-myellow-light">
+        <a href="./index.html" class="p-6 tracking-widest hover:text-myellow-dark block">Home</a>
+        <a href="./about.html" class="p-6 tracking-widest hover:text-myellow-dark block">About Us</a>
+        <a href="./rules.html" class="p-6 tracking-widest hover:text-myellow-dark block">Rules</a>
+        <a href="https://docs.google.com/document/d/1CjQRcvWJKVV9wc7uP4dRRphJ2FfPUhiPZnnE_O8ksUs/edit?usp=sharing" class="p-6 tracking-widest hover:text-myellow-dark block">Handbook</a>
+    </div>
+
+    <div class="bg-no-repeat h-screen bg-center bg-cover opacity-95" style="background-image: url('./images/about.jpg')">
+
+        <div class="flex h-screen pb-32">
+            <div class="m-auto">
+              <h1 class="text-9xl text-myellow-light font-cinzel text-center">About Us</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Who We Are Section -->
+    <div class="bg-myellow-light p-10">
+        <div class="md:flex">
+            <div class="pt-14">
+                <label class="text-myellow-dark uppercase tracking-widest font-montserrat"><i class="fas fa-crown"></i> Who we are</label>
+                <h1 class="font-spectral text-6xl">the nkl staff</h1>
+                <p class="font-montserrat text-myellow-neutral text-2xl">We're the team behind the National Knights League:
+                    A group of passionate people who have some spare time to make an organized experience for players of all skill levels in the Mordhau community.</p>
+            </div>
+            <iframe class="w-full pt-6" width="560" height="315" src="https://www.youtube.com/embed/TmLc668ZzgU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- Team Section: General Staff -->
+    <div class="bg-myellow-medium py-8">
+        <div class="text-center pb-8">
+            <label class="text-myellow-dark uppercase tracking-widest font-montserrat"><i class="fas fa-crown"></i> Team</label>
+            <h1 class="font-spectral text-6xl">General Staff</h1>
+            <p class="font-montserrat text-myellow-neutral text-sm">This is the team behind the entire operation. <br>They organize events and make sure the League stays running!</p>
+        </div>
+
+        <div class="flex justify-center text-center space-x-8">
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto" src="./images/staff/gurningboose.png">
+                <h1 class="font-spectral text-xl">GurningBoose</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Founder/Organizer</p>
+            </div>
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto" src="./images/staff/antares.png">
+                <h1 class="font-spectral text-xl">Antares</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Organizer</p>
+            </div>
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto" src="./images/staff/diabeto.png">
+                <h1 class="font-spectral text-xl">Diabeto</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Head Referee</p>
+            </div>
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto" src="./images/staff/jeez.png">
+                <h1 class="font-spectral text-xl">Jeez</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Developer</p>
+            </div>
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto" src="./images/staff/sagsd.png">
+                <h1 class="font-spectral text-xl">sagsd</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Scheduling</p>
+            </div>
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto" src="./images/staff/plastiq.png">
+                <h1 class="font-spectral text-xl">plastiq</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Scheduling</p>
+            </div>
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto" src="./images/staff/noemagne.png">
+                <h1 class="font-spectral text-xl">Noemagne</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Records</p>
+            </div>
+
+        </div>    
+    </div>
+    
+    <!-- Team Section: Administration -->
+    <div class="bg-myellow-medium py-8">
+        <div class="text-center pb-8">
+            <h1 class="font-spectral text-6xl">Stream Crew</h1>
+            <p class="font-montserrat text-myellow-neutral text-sm">Our team that handles our live streams. <br>When it comes to entertainment, it's what they do!</p>
+        </div>
+
+        <div class="flex justify-center text-center space-x-8">
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto" src="./images/staff/financelord123.png">
+                <h1 class="font-spectral text-xl">financelord123</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Camera/Commentator</p>
+            </div>
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto" src="./images/staff/chaz.png">
+                <h1 class="font-spectral text-xl">chaz</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Camera/Commentator</p>
+            </div>
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto" src="./images/staff/poob.png">
+                <h1 class="font-spectral text-xl">poob</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Commentator</p>
+            </div>
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto" src="./images/staff/halfasian.png">
+                <h1 class="font-spectral text-xl">HalfAsian</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Commentator</p>
+            </div>
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto" src="./images/staff/bubz.png">
+                <h1 class="font-spectral text-xl">Bubz</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Commentator</p>
+            </div>
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto" src="./images/staff/killerkeempaul.png">
+                <h1 class="font-spectral text-xl">KillerKeemPaul</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Commentator</p>
+            </div>
+
+        </div>    
+    </div>
+
+
+
+    <!-- Team Section: Moderation -->
+    <div class="bg-myellow-medium py-8">
+        <div class="text-center pb-8">
+            <h1 class="font-spectral text-6xl">Referees</h1>
+            <p class="font-montserrat text-myellow-neutral text-sm">Here's the team that watches over players and events. <br>They're responsible for refereeing Duel League matches!</p>
+        </div>
+
+        <div class="flex flex-wrap justify-center text-center space-x-8">
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto" src="./images/staff/mannfred.png">
+                <h1 class="font-spectral text-xl">Mannfred</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Referee</p>
+            </div>
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto bg-myellow-light" src="./images/staff/kyuu.png">
+                <h1 class="font-spectral text-xl">kyuu</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Referee</p>
+            </div>
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto bg-myellow-light" src="./images/staff/gichuchin.png">
+                <h1 class="font-spectral text-xl">Gichuchin</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Referee</p>
+            </div>
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto bg-myellow-light" src="./images/staff/dagda.png">
+                <h1 class="font-spectral text-xl">Dagda</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Referee</p>
+            </div>
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto bg-myellow-light" src="./images/staff/srichimnoy.png">
+                <h1 class="font-spectral text-xl">Sri Chinmoy</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Referee</p>
+            </div>
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto bg-myellow-light" src="./images/staff/seal.png">
+                <h1 class="font-spectral text-xl">Seal</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Referee</p>
+            </div>
+
+        </div>    
+    </div>
+
+    <!-- Team Section: Duelyard -->
+    <div class="bg-myellow-medium py-8">
+        <div class="text-center pb-8">
+            <h1 class="font-spectral text-6xl">Duelyard</h1>
+            <p class="font-montserrat text-myellow-neutral text-sm">Our team that manages our public Kansas Duelyard server! <br>They make sure that the NKL duelyard experience is smooth and RDM-free!
+        </div>
+
+        <div class="flex flex-wrap justify-center text-center space-x-8">
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto" src="./images/staff/farron.png">
+                <h1 class="font-spectral text-xl">Farron</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Admin</p>
+            </div>
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto" src="./images/staff/kurama.png">
+                <h1 class="font-spectral text-xl">Kurama</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Admin</p>
+            </div>
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto" src="./images/staff/hogwrassler.png">
+                <h1 class="font-spectral text-xl">hog wrassler</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Admin</p>
+            </div>
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto" src="./images/staff/imae.png">
+                <h1 class="font-spectral text-xl">Imae</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Admin</p>
+            </div>
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto" src="./images/staff/razer.png">
+                <h1 class="font-spectral text-xl">Razer</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Admin</p>
+            </div>
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto" src="./images/staff/rob.png">
+                <h1 class="font-spectral text-xl">rob.</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Admin</p>
+            </div>
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto" src="./images/staff/plastiq.png">
+                <h1 class="font-spectral text-xl">plastiq</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Admin</p>
+            </div>
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto" src="./images/staff/halfasian.png">
+                <h1 class="font-spectral text-xl">HalfAsian</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Admin</p>
+            </div>
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto" src="./images/staff/noemagne.png">
+                <h1 class="font-spectral text-xl">Noemagne</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Admin</p>
+            </div>
+
+            <div class="max-w-xs">
+                <img class="rounded-full h-24 w-24 mx-auto" src="./images/staff/zurtar.png">
+                <h1 class="font-spectral text-xl">Zurtar</h1>
+                <p class="font-montserrat text-myellow-neutral text-sm">Admin</p>
+            </div>
+        </div>
+    </div>    
+    <!-- Footer -->
+    <div class="bg-gray-900 text-center py-1">
+        <p class="text-myellow-light font-montserrat">Copyright © 2021 National Knights League</p>
+        <div class="flex justify-center">
+            <a href="https://discord.gg/ka9QtcjTcC">
+            <img class="h-16 w-16 p-3" src="./images/discordlogo.png"> 
+            </a>    
+            <a href="https://www.twitch.tv/nkl_na">
+            <img class="h-16 w-16 p-3" src="./images/twitchiconnkl.png">
+            </a>
+            <a href="https://www.youtube.com/channel/UCbi9IovAq1hncMhTpkBXoBw">
+            <img class="h-16 w-16 p-3" src="./images/ytlogofr.png">
+            </a>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

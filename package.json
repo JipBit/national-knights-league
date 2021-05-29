@@ -1,0 +1,16 @@
+{
+  "name": "nkl-site",
+  "version": "1.0.0",
+  "description": "nkl official website",
+  "main": "public/index.html",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "author": "Jeez",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.10",
+    "tailwindcss": "^2.1.1"
+  }
+}
